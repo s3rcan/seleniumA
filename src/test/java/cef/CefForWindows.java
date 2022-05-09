@@ -13,7 +13,7 @@ public class CefForWindows {
 
         ChromeOptions options = new ChromeOptions();
         //Path to the CEF executable.
-        options.setBinary("C:\\Users\\anayurt\\AppData\\Local\\Temp\\cef_binary_100.0.24+g0783cf8+chromium-100.0.4896.127_windows64_client\\Release\\cefclient.exe");
+        options.setBinary("C:\\work\\cef_binary_101.0.15+gca159c5+chromium-101.0.4951.54_windows64_client\\Release\\cefclient.exe");
         //Port to communicate on. Required starting with ChromeDriver v2.41.
         options.addArguments("remote-debugging-port=9222");
 
